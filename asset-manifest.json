@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ReactDrawRect/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/ReactDrawRect/static/js/main.a83880ae.chunk.js",
+    "main.js.map": "/ReactDrawRect/static/js/main.a83880ae.chunk.js.map",
+    "runtime-main.js": "/ReactDrawRect/static/js/runtime-main.45077511.js",
+    "runtime-main.js.map": "/ReactDrawRect/static/js/runtime-main.45077511.js.map",
+    "static/js/2.8d1abb01.chunk.js": "/ReactDrawRect/static/js/2.8d1abb01.chunk.js",
+    "static/js/2.8d1abb01.chunk.js.map": "/ReactDrawRect/static/js/2.8d1abb01.chunk.js.map",
+    "index.html": "/ReactDrawRect/index.html",
+    "precache-manifest.f610f941ddf7254b93119149fbb8d8b1.js": "/ReactDrawRect/precache-manifest.f610f941ddf7254b93119149fbb8d8b1.js",
+    "service-worker.js": "/ReactDrawRect/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/ReactDrawRect/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.8d1abb01.chunk.js.LICENSE.txt": "/ReactDrawRect/static/js/2.8d1abb01.chunk.js.LICENSE.txt",
+    "static/media/bgImage.png": "/ReactDrawRect/static/media/bgImage.aaf28585.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.45077511.js",
+    "static/js/2.8d1abb01.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.a83880ae.chunk.js"
+  ]
+}
