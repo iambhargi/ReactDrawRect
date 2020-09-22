@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Layer, Stage } from 'react-konva';
-import ColoredRect from './ColoredRect';
+import GetReact from './GetReact';
 
 class DrawRect extends Component {
     constructor(props) {
@@ -62,17 +62,18 @@ class DrawRect extends Component {
             <div style={{
                 backgroundImage: `url(${require("../assets/bgImage.png")})`,
                 backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat'
+                backgroundSize: 'cover'
             }}>
-                <Stage width={window.innerWidth} height={window.innerHeight}
+                <Stage
+                    width={window.innerWidth}
+                    height={window.innerHeight}
                     onContentClick={this.handleClick}
                     onContentMouseMove={this.handleMouseMove}
                 >
-                    <Layer ref='layer'>
+                    <Layer>
                         {this.state.shapes.map(shape => {
                             return (
-                                <ColoredRect
+                                <GetReact
                                     x={shape.x}
                                     y={shape.y}
                                     width={shape.width}
@@ -87,4 +88,4 @@ class DrawRect extends Component {
     }
 }
 
-export default DrawRect
+export default DrawRect;
