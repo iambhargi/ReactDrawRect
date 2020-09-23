@@ -10,6 +10,7 @@ function GetRect(props) {
             height={props.height}
             fill='white'
             opacity='0.5'
+            draggable='true'
         />
     )
 }
